@@ -673,6 +673,20 @@ const operators = function () {
                 </shadow>
             </value>
         </block>
+        <block type="operator_square">
+            <value name="NUM">
+                <shadow type="math_number">
+                    <field name="NUM"/>
+                </shadow>
+            </value>
+        </block>
+        <block type="operator_square_root">
+            <value name="NUM">
+                <shadow type="math_number">
+                    <field name="NUM"/>
+                </shadow>
+            </value>
+        </block>
         ${blockSeparator}
         <block type="operator_mathop">
             <value name="NUM">
